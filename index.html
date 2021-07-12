@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no"> <!---щоб не можна було збільшувати сторінку на телефоні--->
+
+    <link rel="stylesheet" href="css/styles.css">
+	<title>Medivka Versia 0.1 beta</title>
+	
+</head>
+<body>
+	<section>
+		<header>
+			<a href="#" class="logo">Медівка</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+		</header>
+
+		<div class="header_content">
+			<h2>Сайт села<br>Медівка</h2>
+		</div>
+
+		<div class="play" onclick="videoToggle();">
+			<img src="img/play.png"><span>Дивитись відео</span>
+		</div>
+		<ul class="sci">
+			<li><a href="#"><img src="img/facebook.png"></a></li>
+			<li><a href="#"><img src="img/instagram.png"></a></li>
+			<li><a href="#"><img src="img/twitter.png"></a></li>
+		</ul>
+		<div class="nav_menu">
+			<ul>
+				<li><a href="#">Головна</a></li>
+				<li><a href="#">Про село</a></li>
+				<li><a href="#">Оголошення</a></li>
+				<li><a href="#">Галерея</a></li>
+				<li><a href="#">Місце знаходження</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<div class="med_video">
+		<video src="img/trailer.mp4" controls="true"></video>
+		<img src="img/close.png" class="close" onclick="videoToggle();">
+	</div>
+
+
+
+
+	<script src="scripts/medivka.js" type="text/javascript"></script>
+</body>
+</html>

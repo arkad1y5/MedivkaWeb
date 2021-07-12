@@ -8,5 +8,8 @@ function toggleMenu(){
 //дивитись відео
 function videoToggle(){
 	const med_video = document.querySelector('.med_video');
+	const video = document.querySelector('video');
 	med_video.classList.toggle('active');
+	video.currentTime = 0;
+	video.pause();
 }

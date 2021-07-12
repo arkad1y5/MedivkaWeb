@@ -30,7 +30,7 @@ header{
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 40px 50px;
+	padding: 40px 12%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -65,10 +65,15 @@ header .toggle.active{
 	cursor: pointer;
 }
 
+.container{
+    padding: 0 15px;
+    max-width: 1230px;
+}
+
 .play{
 	position: absolute;
 	bottom: 40px;
-	left: 50px;
+	left: 12%;
 	display: flex;
 	align-items: center;
 	cursor: pointer;
@@ -88,7 +93,7 @@ header .toggle.active{
 .sci{
 	position: absolute;
 	bottom: 49px;
-	right:50px;
+	right:12%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,7 +111,7 @@ header .toggle.active{
 }
 
 .header_content{
-	padding:50px ;
+	padding:12%;
 }
 
 .header_content h2{

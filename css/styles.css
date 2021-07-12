@@ -134,7 +134,7 @@ header .toggle.active{
 	align-items: center;
 	opacity: 0;
 	visibility: hidden ;
-	transition: 0.2s;
+	transition: 0.4s;
 }
 
 .nav_menu.active{
@@ -160,10 +160,12 @@ header .toggle.active{
 	font-size: 2em;
 	text-decoration: none;
 	font-weight: 300;
+	transition: all .5s;
 }
 
 .nav_menu ul li a:hover{
 	color: #144d0e;
+	transform: scale(1.2);
 }
 
 

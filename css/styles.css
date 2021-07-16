@@ -252,9 +252,7 @@ header .toggle.active{
   top: 3.1rem;
   background-color: #28ac00;
 }
-.section{
-  padding-bottom: 2rem;
-}
+
 
 .bd-grid{
   display: grid;
@@ -263,6 +261,129 @@ header .toggle.active{
   padding: 40px 12%;
 }
 
+
+/*ogol_box*/
+
+.ogol_box{
+	display: flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.cointainer_ogol{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1300px;
+	flex-wrap: wrap;
+	padding: 0px 0;
+}
+
+.cointainer_ogol .card{
+	position: relative;
+	width: 320px;
+	height: 440px;
+	box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+							inset -5px -5px 5px rgba(255, 255, 255,0.5),
+							5px 5px 5px rgba(0, 0, 0,0.05),
+							-5px -5px 5px rgba(255, 255, 255,0.5);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.cointainer_ogol .card .box{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
+}
+.box_nezl{
+	background: url(../img/nezl.jpg);
+	background-size: cover;
+}
+
+.box_osen{
+	background: url(../img/osen.jpg);
+	background-size: cover;
+}
+
+.box_now{
+	background: url(../img/now.jpg);
+	background-size: cover;
+
+}
+
+.cointainer_ogol .card:hover .box{
+	transform: translateY(-50px);
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(45deg, #28ac00, #144d0e);
+}
+
+.cointainer_ogol .card .box .content{
+	padding: 20px ;
+	text-align: center;
+}
+
+.cointainer_ogol .card .box .content h2{
+	position: absolute;
+	top: -10px;
+	right:30px;
+	font-size: 8em;
+	color: rgba(0, 0, 0, 0.02);
+	transition: 0.5s;
+	pointer-events: none;
+}
+.cointainer_ogol .card:hover .box .content h2{
+	color: rgba(0, 0, 0, 0.07);
+}
+
+.cointainer_ogol .card .box .content h3{
+	font-size: 1.8em;
+	color: #ffd000;
+	z-index: 1;
+	transition: 0.5s;
+	text-shadow: 0 5px 15px rgb(0 0 0);
+}
+
+.cointainer_ogol .card .box .content p{
+	font-size: 1em;
+	font-weight: 300;
+	color: #ffd000;
+	transition: 0.5s;
+	text-shadow: 0 5px 15px rgb(0 0 0);
+}
+
+.cointainer_ogol .card:hover .box .content h3,
+.cointainer_ogol .card:hover .box .content p{
+	color: #fff;
+}
+
+.cointainer_ogol .card .box .content a{
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	background: #28ac00;
+	margin-top: 15px;
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+}
+
+.cointainer_ogol .card:hover .box .content a{
+	background: #ffb600;
+}
 
 
 

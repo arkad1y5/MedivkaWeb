@@ -272,6 +272,10 @@ header .toggle.active{
   background: #fff;
 }
 
+.maps_box{
+	min-height: 90vh;
+}
+
 .cointainer_ogol{
 	display: flex;
 	justify-content: center;
@@ -393,6 +397,10 @@ header .toggle.active{
 	.about__img img {
     width: 500px;
 	}
+
+	.karta_mob{
+		width: 950px;
+	}
 }
 
 
@@ -400,6 +408,10 @@ header .toggle.active{
 @media screen and (max-width: 1000px){
 	.about__img img {
     width: 500px;
+	}
+
+	.karta_mob{
+		width: 900px;
 	}
 }
 
@@ -415,6 +427,11 @@ header .toggle.active{
 	.about__img img {
     	width: 400px;
 	}
+
+	.karta_mob{
+		width: 700px;
+	}
+
 }
 
 @media screen and (max-width: 550px){
@@ -422,8 +439,16 @@ header .toggle.active{
     	font-size: 4.5rem;
 	}
 
+	.karta_mob{
+		width: 300px;
+	}
+
 	.about__img img {
     	width: 280px;
+	}
+
+	.section-title{
+		font-size: 1.7rem;
 	}
 }
 @media screen and (max-width: 320px){
@@ -433,6 +458,11 @@ header .toggle.active{
 	.about__text{
 		padding-right: 13%;
 	}
+
+	.karta_mob{
+		width: 250px;
+	}
+
 }
 
 @media screen and (min-width: 700px){

@@ -393,6 +393,27 @@ header .toggle.active{
 	width: 1100px;
 }
 
+/* ===== FOOTER =====*/
+.footer{
+  background-color: #144d0e;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 2rem 0;
+}
+.footer__title{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.footer__social{
+  margin-bottom:2rem;
+}
+.footer__icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1rem;
+}
 
 
 
@@ -437,7 +458,7 @@ header .toggle.active{
 	}
 
 	.fotorama{
-		width: 820px;
+		width: 780px;
 	}
 
 }
@@ -460,8 +481,13 @@ header .toggle.active{
 	}
 
 	.fotorama{
-		width: 400px;
+		width: 360px;
 	}
+
+	.gall_vh{
+		min-height: 40vh;	
+	}
+
 }
 @media screen and (max-width: 320px){
 	.header_content h2 {
@@ -476,8 +502,9 @@ header .toggle.active{
 	}
 
 	.fotorama{
-		width: 250px;
+		width: 200px;
 	}
+
 
 
 }

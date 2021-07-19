@@ -4,6 +4,14 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no"> <!---щоб не можна було збільшувати сторінку на телефоні--->
 
+    <!-- jQuery 1.8 or later, 33 KB -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Fotorama from CDNJS, 19 KB -->
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	
+    
+
     <link rel="stylesheet" href="css/styles.css">
 	<title>Medivka Versia 0.1 beta</title>
 	
@@ -32,8 +40,8 @@
 				<li><a href="#home">Головна</a></li>
 				<li><a href="#pro_nas">Про село</a></li>
 				<li><a href="#ogolohen">Оголошення</a></li>
-				<li><a href="#">Галерея</a></li>
-				<li><a href="#">Місце знаходження</a></li>
+				<li><a href="#gall_gall">Галерея</a></li>
+				<li><a href="#maps_nav">Місце знаходження</a></li>
 			</ul>
 		</div>
 	</section>
@@ -100,15 +108,43 @@
 		</div>
 	</div>
 
-	<div class="ogol_box maps_box">
-		<div class="cointainer_ogol">
 
-			<div style="width: 100%" >
-				<div><h2 class="section-title">Місце знаходження</h2></div>
-				<iframe class="karta_mob" width="1100px" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200px&amp;height=500px&amp;hl=ru&amp;q=%D0%BC%D0%B5%D0%B4%D1%96%D0%B2%D0%BA%D0%B0+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0)&amp;t=h&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+	<div id="gall_gall">
+		<div class="ogol_box" >
+			<div class="cointainer_ogol">
+				<h2 class="section-title">Галерея</h2>
+				<div class="fotorama"
+								data-allowfullscreen="true"
+								data-loop="true"
+								data-autoplay="3000"
+								data-arrows="false">
+					<img class="gall_img" src="img/gall/gall8.png">
+					<img class="gall_img" src="img/gall/gall7.png">
+		  			<img class="gall_img" src="img/gall/gall1.png">
+		  			<img class="gall_img" src="img/gall/gall2.png">
+		  			<img class="gall_img" src="img/gall/gall3.png">
+		  			<img class="gall_img" src="img/gall/gall4.png">
+		  			<img class="gall_img" src="img/gall/gall6.png">
+		  			<img class="gall_img" src="img/gall/gall5.png">
+				</div>
 			</div>
 		</div>
 	</div>
+
+
+	<div id="maps_nav">
+		<div class="ogol_box maps_box" >
+			<div class="cointainer_ogol">
+
+				<div style="width: 100%">
+					<div><h2 class="section-title">Місце знаходження</h2></div>
+					<iframe class="karta_mob" width="1100px" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200px&amp;height=500px&amp;hl=ru&amp;q=%D0%BC%D0%B5%D0%B4%D1%96%D0%B2%D0%BA%D0%B0+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BE%D0%B5%D0%B3%D0%BE%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B0)&amp;t=h&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 	<script src="scripts/medivka.js" type="text/javascript"></script>
 </body>
 </html>

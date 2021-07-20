@@ -30,3 +30,6 @@ const showMenu = (toggleId, navId) =>{
 showMenu('nav-toggle','nav-menu')
 
 
+$('.slider').slick({
+	autoplay: 1000
+});

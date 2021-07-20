@@ -417,6 +417,25 @@ header .toggle.active{
 
 
 
+.quote_cointainer{
+	height: 25vh;
+	max-width: 100%;
+  padding: 0 12%;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote_people{
+	  position: relative;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
 
 @media screen and (max-width: 1100px){
 	.about__img img {
